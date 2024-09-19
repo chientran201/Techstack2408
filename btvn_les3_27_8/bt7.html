@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bt7</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h4>Liên hệ chúng tôi</h4>
+            <label for="name">Tên của bạn</label>
+            <input type="text" id="name" name="name" class="input-group">
+            <label for="email">Email của bạn</label>
+            <input type="text" name="email" id="email" class="input-group">
+            <label for="message">Tin nhắn của bạn</label>
+            <textarea style="height: 70px;" name="message" id="message" class="input-group"></textarea>
+            <button type="submit">Gửi</button>
+        </div>
+        <div class="thong-tin">
+            <h4>Thông tin liên hệ</h4>
+            <p>Địa chỉ:123 đường ABC,Quận 1,TP Hồ Chí Minh</p>
+            <p>Điện thoại:(84)123 456 789</p>
+            <p>Email:info@example.com</p>
+        </div>
+    </div>
+</body>
+<style>
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        gap: 10px;
+    }
+    .container{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        background-color: #f9f9f9;
+        padding: 20px;
+    }
+    .input-group{
+        height: 30px;
+        border-radius: 1%;
+        border: 1px rgb(128, 128, 128);
+    }
+    button{
+        width: 50px;
+        background-color: #4eaf50;
+        border-radius: 8%;
+        padding: 5px;
+        color: white;
+        border: #4eaf50;
+    }
+</style>
+</html>

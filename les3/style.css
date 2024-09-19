@@ -1,0 +1,52 @@
+*{
+    font-weight: 500;
+}
+p{
+    background-color: #cb7d42;
+    border: rgb(221, 81, 16) solid 2px ;
+    
+}
+.container{
+    margin: auto;
+    background-color: rgba(66, 136, 180, 0.096);
+    width: 400px;
+    
+}
+.content{
+    padding: 20px;
+}
+p{
+    padding: 10px;
+}
+button{
+    border: 0;
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    border-radius: 10%;
+}
+h1{
+    padding: 10px;
+    background-color: bisque;
+    text-align: center;
+}
+.flag {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+     /* Màu nền của cờ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000; /* Đường viền cờ */
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    background-color: #d4001f; /* Màu đỏ của mặt trời */
+    border-radius: 50%; /* Tạo hình tròn */
+}

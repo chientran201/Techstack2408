@@ -1,0 +1,109 @@
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* Header */
+header {
+    display: flex;
+    font-family: Arial;
+}
+.left {
+    display: flex;
+    background-color: black;
+    width: 30%;
+    height: 60px;
+}
+.logo {width: 10%;}
+.logo img {width: 100%;}
+.left h3 {color: gold;}
+.search {
+   margin-left: 10%;
+   margin-top: 5%;
+   width: 5%;
+}
+.right {
+    background-color: gold;
+    display: flex;
+    width: 70%;
+    height: 60px;
+    justify-content: space-between;
+    margin: 0;
+    line-height: 60px;
+}
+.ND {
+    display: flex;
+    width: 100%;
+}
+/* Menu */
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+.menu a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.menu li {
+    width: 220px;
+    padding: 7px;
+    border: 1px dotted black;
+}
+.menu li:hover > a{
+    color: red;
+}
+.cha {
+    position: relative;
+}
+.con {
+    position: absolute;
+    top: -100px;
+    left: 195px;
+    display: none;
+}
+.con li {
+    background-color: white;
+}
+li:hover .con {
+    display: block;
+}
+
+/* Content */
+.content {
+    display: block;
+    font-size: 16px;
+    color: #330066;
+    width: 80%;
+    margin: 20px;
+}
+.tieude {
+    display: flex;
+    background-color: #66ff66;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid grey;
+}
+.tieude p {padding-left: 10px;}
+.tieude form {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.sp {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.box {
+    width: 23%;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.box img {width: 100%;}
+.giamgia {
+    background-color: green; 
+    color: white; padding: 2px; 
+    margin-left: 20px;
+}

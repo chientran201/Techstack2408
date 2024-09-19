@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bt 3 + 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="username">Tên của bạn</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email của bạn</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="loinhan">Lời nhắn của bạn</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <button type="submit" style="width: 50px;display: block;">Gửi</button>
+        </form>
+    </div><br><br>
+    <div class="container" >
+        <h2 style="text-align: left;">HTML FORM</h2>
+        <form action="">
+            <div class="input-group">
+                <label for="fname">First name:</label>
+                <input type="text" name="fname" id="fname">
+                <label for="lname">Last name:</label>
+                <input type="text" name="lname" class="input"/>
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" class="input">
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="male" value="Male" name="gender">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="female" value="Female" name="gender">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button id="btn-submit"   type="submit">Submit</button>
+                    <button id="btn-reset" type="reset">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    gap: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.radio-group {
+        display: flex;
+        flex-direction: column; /* Đặt các phần tử con theo chiều dọc */
+    }
+
+    .radio-item {
+        margin-bottom: 10px; /* Khoảng cách giữa các radio item */
+        display: flex;
+        align-items: center;
+    }
+    .radio-item label {
+        margin-right: 0; /* Không thêm khoảng cách bên phải của nhãn */
+    }
+    #male {
+        width: 10px;
+        height: 10px;
+    }
+    #female{
+        width: 10px;
+        height: 10px;
+    }
+    .btn-group{
+        width: 100px;
+        display: flex;
+        gap: 10px;
+        
+    }
+    #btn-submit {
+        background-color: gray;
+    }
+    #btn-reset{
+        background-color: gray;
+    }
+</style>
+</html>

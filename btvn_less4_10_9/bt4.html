@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bt4</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-group"><label for="name">Name:</label>
+        <input type="text" name="name" id="name"></div>
+        <div class="input-group"><label for="email">Email:</label>
+        <input type="text" name="email" id="email"></div>
+        <div class="input-group"><label for="mess">Message:</label>
+        <input type="text" name="mess" id="mess"></div>
+        
+        
+        
+        <input type="button" value="Submit" class="btn">
+    </div>
+</body>
+<style>
+    body{
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        background-color: #ffffff;
+        justify-content: flex-start;
+        padding: 15px;
+        border: 1px solid rgba(128, 128, 128, 0.3);
+        gap: 5px;
+    }
+    .input-group{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .btn{
+        color: #ffffff;
+        background-color:#4daf53 ;
+        border: #4daf53;
+        padding: 3px;
+        
+    }
+</style>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bt12</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            Left sidebar
+        </div>
+        <div class="right">
+            <div class="header">
+                Header
+            </div>
+            <div class="content">
+                Content
+            </div>
+            <div class="footer">
+                Footer
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+     body{
+        margin: 0px;
+        height:100vh;
+    }
+    .container{
+        display: flex;
+        height: 100%;
+        margin: 5px;
+        gap: 10px;
+        margin: 10px;
+    }
+    .left{
+        width: 20%;
+        background-color: #f7cecc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #bc8e8d;
+    }
+    .right{
+        gap: 7px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .header{
+        height: 7%;
+        background-color: #fff2cd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #fae1a4;
+    }
+    .content{
+        height: 86%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d5e8d4;
+        border: 2px solid #b1c6a2;
+    }
+    .footer{
+        border: 2px solid #fae1a4;
+        height: 7%;
+        background-color: #fff2cd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+</html>

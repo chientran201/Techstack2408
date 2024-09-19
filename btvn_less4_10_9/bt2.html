@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bt2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <img src="image.jpg" alt="anh product">
+            <span><b>Product Name</b></span>
+            <p>Price:50$</p>
+        </div>
+        
+            <div class="product">
+                <img src="image.jpg" alt="anh product">
+                <span><b>Product Name</b></span>
+                <p>Price:50$</p>
+            </div>
+        <div class="product">
+            <img src="image.jpg" alt="anh product">
+            <span><b>Product Name</b></span>
+            <p>Price:50$</p>
+        </div>
+        
+    </div>
+</body>
+<style>
+    .container{
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .product{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #cccccc;
+        padding: 5px;
+    }
+    img{
+        width: 100%;
+    }
+</style>
+</html>
